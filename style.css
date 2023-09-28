@@ -29,6 +29,7 @@ header{
     color: white;
     text-decoration: none;
 }
+
 /*
 .topnav1 a:hover{
     box-shadow: inset 100px 0 0 0 #ffffff;
@@ -59,7 +60,7 @@ a:hover::before {
   transform-origin: left;
   transform: scaleX(1);
 }
-.Portfolio{
+.Portfolioheader{
     font-family: 'Satisfy', cursive;
     font-size: 40px;
     position: absolute;
@@ -95,6 +96,9 @@ img.rounded-corners {
   .introimg:hover{
     transform: scale(0.5);
     transition: 3s;
+}
+#portfolio{
+    padding-left: 40px; color: white;
 }
 .image-grid{
     --gap: 16px;
