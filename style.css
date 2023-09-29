@@ -89,7 +89,7 @@ a:hover::before {
     margin-top: 220px;
     padding-right: 40px;
     padding-left: 120px;
-   }
+    }
 img.rounded-corners {
     border-radius: 120px 20px 120px 20px;
   }
@@ -187,4 +187,60 @@ justify-content: left;
     margin: auto;
     opacity: 0; 
   }
+  /*for about*/
+  #about, #services,#skills,#journal{
+    color: white;
+    justify-content: center;
+    justify-items: center;
+    padding-left: 450px;
+    padding-right: 300px;
+
+  }
+  #testimonials{
+    color: white;
+    justify-content: center;
+    justify-items: center;
+    padding-left: 380px;
+    padding-right: 250px;
+
+  }
+  #contact{
+    color: white;
+    justify-content: center;
+    justify-items: center;
+    padding-left: 400px;
+    padding-right: 300px;
+
+  }
+  .ml14 {
+    font-weight: 200;
+    font-size: 3.2em;
+  }
   
+  .ml14 .text-wrapper {
+    position: relative;
+    display: inline-block;
+    padding-top: 0.1em;
+    padding-right: 0.05em;
+    padding-bottom: 0.15em;
+  }
+  
+  .ml14 .line {
+    opacity: 0;
+    position: absolute;
+    left: 0;
+    height: 2px;
+    width: 100%;
+    background-color: #fff;
+    transform-origin: 100% 100%;
+    bottom: 0;
+  }
+  
+  .ml14 .letter {
+    display: inline-block;
+    line-height: 1em;
+  }
+  .aboutpara{
+    color: #fff;
+    
+  }
